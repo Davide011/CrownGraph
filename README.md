@@ -1,4 +1,4 @@
-🧠#Social Graphs and Interactions — Royal Family Network Analysis
+🧠 Social Graphs and Interactions — Royal Family Network Analysis
 Overview
 
 This project investigates European royal family networks through graph analytics, Wikipedia API data extraction, and Natural Language Processing (NLP). It models monarchic relationships as a knowledge graph to study correlations between inbreeding coefficients, social connectivity, and biographical sentiment analysis derived from publicly available historical data.
@@ -12,7 +12,7 @@ Implemented web scraping using the Wikipedia RESTful API to extract structured d
 
 Parsed relationship attributes (e.g., parents, spouses, predecessors, successors) using JSON query pipelines.
 
-Implemented data validation, entity resolution, and error handling to ensure robust data ingestion.
+Applied data validation, entity resolution, and error handling to ensure robust data ingestion.
 
 Keywords: Wikipedia API, JSON parsing, RESTful endpoints, data pipeline automation, entity disambiguation.
 
@@ -54,6 +54,7 @@ Mapped coefficient distributions across dynasties and time periods to identify g
 Compared inbreeding scores across centuries (1450–1700 vs. 1920+) to study temporal trends in hereditary practices.
 
 Keywords: graph-based inheritance modeling, genealogical inference, recursive algorithms, computational biology, historical data analytics.
+
 🧠 4. Natural Language Processing & Sentiment Analysis
 
 Extracted biographical text from Wikipedia pages using NLP preprocessing techniques (tokenization, stopword removal, lemmatization).
@@ -112,7 +113,7 @@ NLP and Text Analytics
 
 Data Science for Research and Policy Analytics
 
-📜 Authors
+👥 Authors
 
 Davide Venuto, Pere Ginebra, Sergi Doce
 Course: Social Graphs and Interactions (2025)
