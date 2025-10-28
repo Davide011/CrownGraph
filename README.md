@@ -106,21 +106,6 @@ This project bridges **computational social science**, **historical data mining*
 - **NLP and Text Analytics**  
 - **Data Science for Research and Policy Analytics**
 
----
 
-## ⚙️ **How to Run**
-
-Clone the repository and open the notebook in **Google Colab** or **Jupyter**.
-
-```bash
-# Clone the repo
-git clone https://github.com/yourusername/social-graphs-royal-analysis.git
-cd social-graphs-royal-analysis
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Open notebook
-jupyter notebook COLAB_FINAL_PROJECT.ipynb
 
 
