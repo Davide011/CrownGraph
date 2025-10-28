@@ -1,4 +1,4 @@
-🧠 Social Graphs and Interactions — Royal Family Network Analysis
+🧠# Social Graphs and Interactions — Royal Family Network Analysis
 Overview
 
 This project investigates European royal family networks through graph analytics, Wikipedia API data extraction, and Natural Language Processing (NLP). It models monarchic relationships as a knowledge graph to study correlations between inbreeding coefficients, social connectivity, and biographical sentiment analysis derived from publicly available historical data.
