@@ -38,43 +38,22 @@ Keywords: graph analytics, knowledge graph, NetworkX, adjacency matrix, social n
 
 🧬 3. Inbreeding Coefficient Computation
 
-Implemented a recursive computation of the inbreeding coefficient (fₓ) for each individual node:
+Implemented a recursive computation of the inbreeding coefficient for each individual node:
 
-𝑓
-𝑋
-=
-∑
-0.5
-𝑛
-−
-1
-∗
-(
-1
-+
-𝑓
-𝐴
-)
-f
-X
-	​
+f(X) = Σ [ 0.5^(n - 1) * (1 + f(A)) ]
 
-=∑0.5
-n−1
-∗(1+f
-A
-	​
 
-)
+where:
 
-where n represents the number of individuals in the ancestral loop and fA is the coefficient of the common ancestor.
+n → number of individuals in the ancestral loop between the parents and common ancestor
+
+f(A) → inbreeding coefficient of the common ancestor
 
 Mapped coefficient distributions across dynasties and time periods to identify genealogical bottlenecks.
 
 Compared inbreeding scores across centuries (1450–1700 vs. 1920+) to study temporal trends in hereditary practices.
 
-Keywords: graph-based inheritance modeling, genealogical inference, probability graph, recursive algorithms, computational biology, historical data analytics.
-
+Keywords: graph-based inheritance modeling, genealogical inference, recursive algorithms, computational biology, historical data analytics.
 🧠 4. Natural Language Processing & Sentiment Analysis
 
 Extracted biographical text from Wikipedia pages using NLP preprocessing techniques (tokenization, stopword removal, lemmatization).
